@@ -1,6 +1,9 @@
 # Saraha-App
+
 ## Description
-   simple E-commerce API.
+
+simple E-commerce API.
+
 ## Technologies
 
 <div>
@@ -21,28 +24,28 @@
   </center>
 </dev>
 
-## *Key Features:*
-
-
+## _Key Features:_
 
 ## Installation
-1. *Clone the Repository:*
+
+1. _Clone the Repository:_
    Use the git clone command to clone the GitHub repository to your local machine.
    bash
-   git clone  'https://github.com/xhedary/Saraha-App'
+   git clone 'https://github.com/xhedary/Saraha-App'
 2. **Initialize a Package.json File (if not already done):**
    If your project doesn't already have a `package.json` file, you can create one by running:
    bash
    npm init
    # or
    yarn init
-3. *Install depends*
+3. _Install depends_
    bash
-      npm install
-5. <br>
-   
+   npm install
+4. <br>
+
 ## Project Structure
- powershell
+
+powershell
 d:/Route/projects/Saraha/
 ├── .gitignore
 ├── index.js
@@ -52,48 +55,48 @@ d:/Route/projects/Saraha/
 ├── package.json
 ├── README.md
 └── src/
-    ├── app.controller.js
-    ├─] config/ (ignored)
-    ├── DB/
-    │   ├── connection.js
-    │   └── model/
-    │       ├── message.model.js
-    │       └── user.model.js
-    ├── middleware/
-    │   ├── authentication.meddleware.js
-    │   └── validation.meddleware.js
-    ├── modules/
-    │   ├── auth/
-    │   │   ├── auth.controller.js
-    │   │   ├── auth.validation.js
-    │   │   └── services/
-    │   │       ├── login.service.js
-    │   │       └── registration.service.js
-    │   ├── message/
-    │   │   ├── message.cotroller.js
-    │   │   └── services/
-    │   │       ├── message.service.js
-    │   │       └── message.validation.js
-    │   └── user/
-    │       ├── services/
-    │       │   └── user.service.js
-    │       ├── user.controller.js
-    │       ├── user.endpoint.js
-    │       └── user.validation.js
-    └── utils/
-        ├── email/
-        │   ├── send.email.js
-        │   └── template/
-        │       ├── confirmEmail.js
-        │       ├── confirmEmailOtp.js
-        │       └── reactivateAccountOtp.js
-        ├── error/
-        │   └── error.js
-        ├── events/
-        │   └── email.event.js
-        ├── response/
-        │   └── success.response.js
-        └── security/
-            ├── encryption.js
-            ├── hash.js
-            └── token.js
+├── app.controller.js
+├─] config/ (ignored)
+├── DB/
+│ ├── connection.js
+│ └── model/
+│ ├── message.model.js
+│ └── user.model.js
+├── middleware/
+│ ├── authentication.meddleware.js
+│ └── validation.meddleware.js
+├── modules/
+│ ├── auth/
+│ │ ├── auth.controller.js
+│ │ ├── auth.validation.js
+│ │ └── services/
+│ │ ├── login.service.js
+│ │ └── registration.service.js
+│ ├── message/
+│ │ ├── message.cotroller.js
+│ │ └── services/
+│ │ ├── message.service.js
+│ │ └── message.validation.js
+│ └── user/
+│ ├── services/
+│ │ └── user.service.js
+│ ├── user.controller.js
+│ ├── user.endpoint.js
+│ └── user.validation.js
+└── utils/
+├── email/
+│ ├── send.email.js
+│ └── template/
+│ ├── confirmEmail.js
+│ ├── confirmEmailOtp.js
+│ └── reactivateAccountOtp.js
+├── error/
+│ └── error.js
+├── events/
+│ └── email.event.js
+├── response/
+│ └── success.response.js
+└── security/
+├── encryption.js
+├── hash.js
+└── token.js
