@@ -2,8 +2,6 @@
 
 ## Description
 
-simple E-commerce API.
-
 ## Technologies
 
 <div>
