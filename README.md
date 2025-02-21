@@ -55,48 +55,48 @@ d:/Route/projects/Saraha/
 ├── package.json
 ├── README.md
 └── src/
-├── app.controller.js
-├─] config/ (ignored)
-├── DB/
-│ ├── connection.js
-│ └── model/
-│ ├── message.model.js
-│ └── user.model.js
-├── middleware/
-│ ├── authentication.meddleware.js
-│ └── validation.meddleware.js
-├── modules/
-│ ├── auth/
-│ │ ├── auth.controller.js
-│ │ ├── auth.validation.js
-│ │ └── services/
-│ │ ├── login.service.js
-│ │ └── registration.service.js
-│ ├── message/
-│ │ ├── message.cotroller.js
-│ │ └── services/
-│ │ ├── message.service.js
-│ │ └── message.validation.js
-│ └── user/
-│ ├── services/
-│ │ └── user.service.js
-│ ├── user.controller.js
-│ ├── user.endpoint.js
-│ └── user.validation.js
-└── utils/
-├── email/
-│ ├── send.email.js
-│ └── template/
-│ ├── confirmEmail.js
-│ ├── confirmEmailOtp.js
-│ └── reactivateAccountOtp.js
-├── error/
-│ └── error.js
-├── events/
-│ └── email.event.js
-├── response/
-│ └── success.response.js
-└── security/
-├── encryption.js
-├── hash.js
-└── token.js
+    ├── app.controller.js
+    ├─] config/ (ignored)
+    ├── DB/
+    │   ├── connection.js
+    │   └── model/
+    │       ├── message.model.js
+    │       └── user.model.js
+    ├── middleware/
+    │   ├── authentication.meddleware.js
+    │   └── validation.meddleware.js
+    ├── modules/
+    │   ├── auth/
+    │   │   ├── auth.controller.js
+    │   │   ├── auth.validation.js
+    │   │   └── services/
+    │   │       ├── login.service.js
+    │   │       └── registration.service.js
+    │   ├── message/
+    │   │   ├── message.cotroller.js
+    │   │   └── services/
+    │   │       ├── message.service.js
+    │   │       └── message.validation.js
+    │   └── user/
+    │       ├── services/
+    │       │   └── user.service.js
+    │       ├── user.controller.js
+    │       ├── user.endpoint.js
+    │       └── user.validation.js
+    └── utils/
+        ├── email/
+        │   ├── send.email.js
+        │   └── template/
+        │       ├── confirmEmail.js
+        │       ├── confirmEmailOtp.js
+        │       └── reactivateAccountOtp.js
+        ├── error/
+        │   └── error.js
+        ├── events/
+        │   └── email.event.js
+        ├── response/
+        │   └── success.response.js
+        └── security/
+            ├── encryption.js
+            ├── hash.js
+            └── token.js
