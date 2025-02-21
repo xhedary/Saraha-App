@@ -22,12 +22,12 @@ Saraha App is a secure, anonymous messaging platform that allows users to send a
 - **Email Services:** Nodemailer for OTP and account verification
 
 ## 🔥 Features
-✅ **Anonymous Messaging** - Users can send and receive messages anonymously
-✅ **Secure Authentication** - JWT-based authentication
-✅ **Strong Data Validation** - Joi validation for structured input
-✅ **Account Management** - Freeze accounts, session termination, secure password reset
-✅ **Robust Security** - Password hashing, encrypted sensitive data, OTP-based verification
-✅ **Scalability** - Designed with an event-driven architecture for high performance
+✅-**Anonymous Messaging** - Users can send and receive messages anonymously
+✅-**Secure Authentication** - JWT-based authentication
+✅-**Strong Data Validation** - Joi validation for structured input
+✅-**Account Management** - Freeze accounts, session termination, secure password reset
+✅-**Robust Security** - Password hashing, encrypted sensitive data, OTP-based verification
+✅-**Scalability** - Designed with an event-driven architecture for high performance
 
 
 ## Installation
