@@ -48,7 +48,7 @@ export const confirmEmail = asyncHandler(
 
 export const confirmEmailOtp = asyncHandler(
     async (req, res, next) => {
-        const user = await userModel.findOne(req.body.email)
+        const user = await userModel.findOne({email :req.body.email})
         if (!compareHash({ plainText: req.body.otp, hashValue: user.confirmEmailOtp })) {
             return next(new Error("In-valid OTP", { cause: 400 }))
         }
